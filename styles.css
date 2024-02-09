@@ -1,0 +1,77 @@
+body {
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    background-color: rgb(0, 0, 39);
+    color: rgb(138, 137, 137);
+}
+  
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
+  
+.container {
+    width: 90%;
+    max-width: 680px;
+}
+  
+h1,
+.container,
+.output {
+    margin: 20px auto;
+}
+  
+label,
+legend {
+    font-weight: bold;
+}
+  
+.input-container {
+    display: flex;
+    flex-direction: column;
+}
+  
+button {
+    cursor: pointer;
+    text-decoration: none;
+    background-color: rgb(250, 157, 123);
+    border: 2px solid rgb(248, 138, 101);
+}
+  
+button,
+input,
+select {
+    min-height: 24px;
+    color: rgb(0, 0, 39);
+}
+  
+fieldset,
+label,
+button,
+input,
+select {
+    margin-bottom: 10px;
+}
+  
+.output {
+    border: 2px solid lightgray;
+    padding: 10px;
+    text-align: center;
+}
+  
+.hide {
+    display: none;
+}
+  
+.output span {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+  
+.surplus {
+    color: lightpink;
+}
+  
+.deficit {
+    color: lightgreen;
+}
